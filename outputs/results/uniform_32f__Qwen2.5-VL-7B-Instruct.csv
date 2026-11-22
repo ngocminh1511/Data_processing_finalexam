@@ -1,0 +1,340 @@
+tag,model,Question_id,video_id,question_category,question,answer,Output,n_frames
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,0,EmbodiedCity_1.mp4,Object Recall,"Question: What is to your right of the high-rise building with modern design as you approach the main entrance?
+
+Choices:  
+A. A large parking lot.  
+B. Interconnected roads.  
+C. A circular plaza.  
+D. Two white structures.  
+E. A small garden.  ",B,Option: D; Reason: The two white structures are visible to the right of the high-rise building with a modern design as you approach the main entrance.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,1,EmbodiedCity_1.mp4,Duration,"Question: Which takes longer, your descent to the building's roof or your approach to the main entrance?  
+Choices:  
+A. My descent to the building's roof takes the same time as my approach to the main entrance.  
+B. My descent to the building's roof takes longer than my approach to the main entrance.  
+C. My approach to the main entrance takes longer than my descent to the building's roof.  ",B,Option: C; Reason: The agent approaches the main entrance at a much slower pace compared to the descent to the building's roof.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,2,EmbodiedCity_2.mp4,Trajectory Captioning,"Question: Which of the following choices better summarizes your movement route?  
+Choices:  
+A. I go from between the two skyscrapers to the balcony on the 31st floor by flying straight across the open space.  
+B. I go from the rooftop garden to the balcony on the 31st floor by flying over the circular building.  
+C. I go from the modern glass facade on the left building to the center of the city by descending vertically.  
+D. I go from the rooftop of a circular building with a copper dome to the modern glass facade by flying in a zigzag pattern.  
+E. I go from the aerial view of the city skyline to the balcony on the 31st floor by descending slowly and adjusting my direction of view.  ",E,"Option: B; Reason: The agent moves from the rooftop garden to the balcony on the 31st floor by flying over the circular building, which matches the description in option B.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,3,EmbodiedCity_2.mp4,Duration,"Question: Which takes longer, your movement between the tall buildings or your approach to the balcony on the 31st floor?  
+Choices:  
+A. My movement between the tall buildings takes the same time as my approach to the balcony on the 31st floor.  
+B. My movement between the tall buildings takes longer than my approach to the balcony on the 31st floor.  
+C. My movement between the tall buildings takes shorter than my approach to the balcony on the 31st floor.  ",B,Option: C; Reason: The agent's movement between the tall buildings is faster than approaching the balcony on the 31st floor.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,4,EmbodiedCity_3.mp4,Causal,"Question: Why did you ascend to reach the height of the domed top of the nearby building?
+
+Choices:  
+A. To capture a better view of the cityscape.  
+B. To avoid a low-flying helicopter.  
+C. To maintain a safe distance from the ground.  
+D. To follow the curvature of the street below.  
+E. To match the altitude of the balcony on the 30th floor.  ",E,Option: A; Reason: The agent ascended to reach the height of the domed top of the nearby building to capture a better view of the cityscape.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,5,EmbodiedCity_4.mp4,Start/End Position,"Question: Where are your starting point and ending point?
+
+Choices:  
+A. I start from the view between two skyscrapers and end at a series of rooftops of city buildings.  
+B. I start at the roadway network and end at the series of rooftops of city buildings.  
+C. I start at the balcony on the 31st floor and end at the entrance to a tall building.  
+D. I start at the view between two skyscrapers and end at the balcony on the 29th floor.  
+E. I start at the brown spire-like structure and end at the roadway network.  ",D,Option: C; Reason: The agent starts at the balcony on the 31st floor and ends at the entrance to a tall building.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,6,EmbodiedCity_4.mp4,Causal,"Question: Why did you descend further after turning slightly to the right towards the cylindrical building?
+
+Choices:  
+A. To avoid another skyscraper blocking your path.  
+B. Because your initial altitude was unstable.  
+C. To reach the height of the 29th floor.  
+D. To get a better view of the brown spire-like structure.  
+E. To maintain your speed across an open area.  ",C,"Option: D; Reason: The agent is descending further to get a better view of the brown spire-like structure, which is visible in the image.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,7,EmbodiedCity_5.mp4,Trajectory Captioning,"Question: Which of the following choices better summarizes your movement route?
+
+Choices:  
+A. I go from above the street, between two tall skyscrapers, to the balcony on the 30th floor by flying a curved path around the building.  
+B. I go from between two tall skyscrapers above the street to the top of a uniquely shaped circular building.  
+C. I go from above the street towards the facade, turn to a skyscraper with numbered floors, and hover at the balcony on the 28th floor.  
+D. I rise from the entrance of the large domed circular building to the 28th-floor balcony.  
+E. I go from above the street, between tall skyscrapers, to the balcony on the 31st floor by flying in a straight line.  ",C,"Option: C; Reason: The agent starts from above the street, moves towards the facade of a building, and then turns to a skyscraper with numbered floors. The agent hovers at the balcony on the 28th floor, which matches the description in option C.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,8,EmbodiedCity_6.mp4,Sequence Recall,"Question: What is your next action after centering the conical structure in the frame?
+
+Choices:  
+A. I ascend toward the top of the conical building.  
+B. I turn sharply to the left.  
+C. I move backward to get a wider view of the structure.  
+D. I hover in place above the building.  
+E. I descend, moving closer to the top of the conical building.  ",E,"Option: E; Reason: The agent is moving closer to the top of the conical building, which is the next logical action after centering it in the frame.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,9,EmbodiedCity_7.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+Choices:  
+A. Start at the 26th floor balcony and end at the 25th floor window.  
+B. Start at the rooftop of the cylindrical building and end at the 28th floor.  
+C. Start at the cylindrical building with large windows and end at the building entrance.  
+D. Start at the 31st floor and end at the rooftop of the building.  
+E. Start at the street lined with skyscrapers and end at the floor labeled as 26 with a balcony.  ",E,Option: D; Reason: The journey starts at the 31st floor and ends at the rooftop of the building.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,10,EmbodiedCity_7.mp4,Duration,"Question: Which takes longer, your ascent towards the rooftop of the conical building or your descent towards the 26th floor balcony?
+
+Choices:  
+A. My ascent towards the rooftop takes longer than my descent towards the 26th floor balcony.  
+B. My ascent towards the rooftop takes shorter than my descent towards the 26th floor balcony.  
+C. My ascent towards the rooftop takes the same time as my descent towards the 26th floor balcony.  ",B,Option: B; Reason: The agent descends towards the 26th floor balcony at a faster pace than the ascent towards the rooftop.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,11,EmbodiedCity_8.mp4,Duration,"Question: Which action takes longer, your circling of the cone-shaped structure or your descent along the facade of the building?
+
+Choices:  
+A. My circling of the cone-shaped structure takes longer than my descent along the facade.  
+B. My circling of the cone-shaped structure takes shorter than my descent along the facade.  
+C. My circling of the cone-shaped structure takes the same time as my descent along the facade.  ",B,"Option: B; Reason: The agent's descent along the facade of the building appears to be a continuous and smooth movement, while circling the cone-shaped structure involves a more complex maneuver that likely takes longer.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,12,EmbodiedCity_9.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+Choices:  
+A. Start at the view across the cityscape and end at the top of the curved building.  
+B. Start at the brown spire on top of a tower and end at the balcony on the 24th floor.  
+C. Start between the tall skyscrapers and end at the balcony on the 24th floor.  
+D. Start at the view across the cityscape and end by descending along the face of the building.  
+E. Start at the top of the curved building and end at the brown spire on top of a tower.  ",C,"Option: B; Reason: The journey starts at the brown spire on top of a tower and ends at the balcony on the 24th floor, as indicated by the sequence of images showing the agent moving from the top of the tower to the balcony on the 24th floor.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,13,EmbodiedCity_9.mp4,Object Recall,"Question: What is directly above the balcony on the 24th floor?  
+Choices:  
+A. A rooftop garden.  
+B. A billboard.  
+C. Nothing.  
+D. Another balcony.  
+E. A drone stationed above.  ",D,"Option: C; Reason: There is no visible structure directly above the balcony on the 24th floor, indicating that the area is open.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,14,EmbodiedCity_10.mp4,Duration,"Question: Which takes longer, your ascent over the cone-shaped structure or your descent to the balcony on the 23rd floor?
+
+Choices:  
+A. My ascent over the cone-shaped structure takes longer than my descent.  
+B. My ascent over the cone-shaped structure takes shorter than my descent.  
+C. My ascent over the cone-shaped structure takes the same time as my descent.  ",B,"Option: B; Reason: The agent ascends the cone-shaped structure in a series of frames, indicating a longer ascent compared to the descent to the balcony on the 23rd floor, which is shown in a single frame.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,15,EmbodiedCity_11.mp4,Start/End Position,"Question: Where do you start and end your journey?
+
+Choices:  
+A. Start between the skyscrapers and end at the rooftop of the city center building.  
+B. Start at the city square and end at the conical rooftop of a tower.  
+C. Start between tall buildings and end at the balcony on the 22nd floor.  
+D. Start at the base of a tower and end at the numbered floors of another building.  
+E. Start at the parking lot and end at the cityscape view.  ",C,Option: B; Reason: The journey starts at the city square and ends at the conical rooftop of a tower.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,16,EmbodiedCity_11.mp4,Duration,"Question: Which takes longer, your ascent between the skyscrapers or your descent to align with the 22nd floor?  
+Choices:  
+A. My ascent takes longer than my descent to align with the 22nd floor.  
+B. My descent to align with the 22nd floor takes longer than my ascent between the skyscrapers.  
+C. My ascent and descent take the same amount of time.  ",B,"Option: B; Reason: The agent is moving upwards in the first few frames and then downwards in the later frames, indicating that the descent to align with the 22nd floor takes longer than the ascent between the skyscrapers.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,17,EmbodiedCity_12.mp4,Duration,"Question: Which takes longer, your flight over the dome-shaped structure or your descent towards the 21st floor balcony?  
+Choices:  
+A. My flight over the dome-shaped structure takes longer than my descent towards the 21st floor balcony.  
+B. My descent towards the 21st floor balcony takes longer than my flight over the dome-shaped structure.  
+C. My flight over the dome-shaped structure takes the same time as my descent towards the 21st floor balcony.  ",B,"Option: B; Reason: The agent is moving down the building towards the 21st floor balcony, which is a descent, while the flight over the dome-shaped structure is a horizontal movement. Descent typically takes longer than horizontal movement.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,18,EmbodiedCity_13.mp4,Scene Recall,"Question: What objects do you observe during your descent along the side of the building?  
+Choices:  
+A. A dome-shaped structure, a balcony, and a tree.  
+B. A road, a park, and a skyscraper.  
+C. A balcony, a cylindrical building, and a tree.  
+D. A rooftop, a street lamp, and a billboard.  
+E. A series of balconies, the rooftop of a cylindrical building, and surrounding roads.  ",E,"Option: E; Reason: The video shows a descent along the side of a building, and the objects observed are a series of balconies, the rooftop of a cylindrical building, and surrounding roads.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,19,EmbodiedCity_14.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+Choices:  
+A. I start between two tall skyscrapers and end at the series of rooftops below.  
+B. I start at the city skyline between skyscrapers and end at the tall conical roof.  
+C. I start between two tall buildings in the cityscape and end at the side of a tall glass building.  
+D. I start between two tall buildings in the cityscape and end at the balcony on the 19th floor.  
+E. I start at the series of rooftops below and end at the facade of a cylindrical building.  ",D,Option: D; Reason: The agent starts between two tall buildings in the cityscape and ends at the balcony on the 19th floor.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,20,EmbodiedCity_14.mp4,Object Recall,"Question: What is near the facade of the cylindrical building?  
+Choices:  
+A. A large billboard.  
+B. A series of rooftops below.  
+C. A city skyline between skyscrapers.  
+D. A tall conical roof in the foreground.  
+E. A glass bridge.  ",D,"Option: D; Reason: The image shows a tall conical roof in the foreground, which is near the facade of the cylindrical building.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,21,EmbodiedCity_15.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+Choices:  
+A. Start at the cylindrical building with blue accents and end at the balcony on the 18th floor.  
+B. Start at the busy intersection between skyscrapers and end at the rooftop view of two distant towers.  
+C. Start at the wooden conical structure on a rooftop and end at the tall building with reflective windows.  
+D. Start between two tall skyscrapers and end at the balcony on the 18th floor.  
+E. Start at the cityscape with sprawling grey buildings and end at the wooden conical structure on a rooftop.  ",D,Option: B; Reason: The journey starts at the busy intersection between skyscrapers and ends at the rooftop view of two distant towers.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,22,EmbodiedCity_15.mp4,Proximity,"Question: How does the distance between you and the cylindrical building with blue accents change after you ascend slightly to get a higher view of the rooftop?  
+Choices:  
+A. It increases.  
+B. It decreases.  
+C. It remains the same.  ",A,"Option: A; Reason: The agent ascends slightly, moving away from the cylindrical building with blue accents, thus increasing the distance between them.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,23,EmbodiedCity_17.mp4,Counterfactual,"Question: Instead of moving past two tall buildings, if you choose to ascend immediately, can you still reach the balcony on the 16th floor, and how is the alternative route?  
+Choices:  
+A. If I choose to ascend immediately, I can complete the task with no significant delay, but navigating becomes more complex.  
+B. If I choose to ascend immediately, I can complete the task because I directly reach the building, and the alternative is slightly quicker.  
+C. If I choose to ascend immediately, I cannot complete the task because I miss the approach towards the cylindrical tower.  ",C,"Option: A; Reason: Ascending immediately allows you to reach the 16th floor directly, but navigating the cylindrical tower adds complexity to the route.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,24,EmbodiedCity_18.mp4,Start/End Position,"Question: Where do you start and end your journey?
+
+Choices:  
+A. Start high above the city and end at the building with a conical top.  
+B. Start at the central avenue and end at the rooftop of a large tower.  
+C. Start high above the city and end at the balcony on the 15th floor.  
+D. Start at the rooftop of a large tower and end at the curved facade of the cylindrical skyscraper.  
+E. Start at the building with a conical top and end at the central avenue.  ",C,Option: D; Reason: The journey starts at the rooftop of a large tower and ends at the curved facade of the cylindrical skyscraper.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,25,EmbodiedCity_19.mp4,Trajectory Captioning,"Question: Which of the following choices better summarizes your movement route?  
+Choices:  
+A. Go from the cityscape with scattered buildings to the rooftop by descending gradually.  
+B. Go from the top of a conical roof to the balcony on the 14th floor by aligning with the tower facade.  
+C. Go from between two tall buildings to the balcony on the 14th floor by approaching the circular building.  
+D. Go from passing the 15th floor to the cityscape with scattered buildings by ascending to the top.  
+E. Go from the skyscraper corridor between tall buildings to the circular building approach from above by turning right.  ",C,Option: B; Reason: The agent starts from the top of a conical roof and then moves to the balcony on the 14th floor by aligning with the tower facade.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,26,EmbodiedCity_19.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+Choices:  
+A. Start at the balcony on the 14th floor and end at the skyscraper corridor between tall buildings.  
+B. Start at the cityscape with scattered buildings and end at the top of a conical roof on a circular building.  
+C. Start at the full view of a circular building and end at the descent along the facade of a tall building.  
+D. Start at the circular building approach from above and end at passing the 15th floor of the building.  
+E. Start at the skyscraper corridor between tall buildings and end at the balcony on the 14th floor.  ",E,Option: A; Reason: The journey starts at the balcony on the 14th floor and ends at the skyscraper corridor between tall buildings.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,27,EmbodiedCity_19.mp4,Causal,"Question: Why did you descend gradually after maintaining a steady altitude near the round-topped tower?  
+Choices:  
+A. To increase your speed towards the destination.  
+B. To capture a better view of the cityscape.  
+C. To align yourself with the building's floors.  
+D. To avoid air traffic above the tower.  
+E. To approach an open landing zone on the ground.  ",C,"Option: C; Reason: The agent is descending towards the building, which suggests that the agent is aligning itself with the building's floors to prepare for landing.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,28,EmbodiedCity_20.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+Choices:  
+A. Start between the skyscrapers in the city center and end at the rooftop of the tall building with antennas.  
+B. Start at the rooftop of the tall building with antennas and end at the balcony on the 13th floor.  
+C. Start between the skyscrapers in the city center and end at the balcony on the 13th floor.  
+D. Start at the cylindrical building with a cone-shaped top and end on the rooftop of the tall building with antennas.  
+E. Start at the balcony on the 13th floor and end between the skyscrapers in the city center.  ",C,Option: C; Reason: The journey starts between the skyscrapers in the city center and ends at the balcony on the 13th floor.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,29,EmbodiedCity_20.mp4,Counterfactual,"Question: Instead of taking a steady descent towards the balcony on the 13th floor, if you choose to hover around the cylindrical building instead, can you complete the task, and how is the alternative route?  
+Choices:  
+A. If I choose to hover around the building, I can complete the task because I avoid obstacles, and the hypothetical movement takes shorter time.  
+B. If I choose to hover around the building, I can complete the task because I acquire a better vantage point, but the alternative takes longer time.  
+C. If I choose to hover around the building, I cannot complete the task because the balcony is only accessible by descending further.  ",C,"Option: C; Reason: Hovering around the building does not provide a clear path to the balcony, and the agent cannot reach it.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,30,EmbodiedCity_21.mp4,Proximity,"Question: How does the distance between you and the large glass building at the corner change after you turn slightly to the right?  
+Choices:  
+A. The distance decreases.  
+B. The distance remains the same.  
+C. The distance increases.  ",A,Option: C; Reason: The distance between the agent and the large glass building at the corner increases as the agent moves to the right.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,31,EmbodiedCity_25.mp4,Proximity,"Question: How does the distance between you and the cylindrical building with blue windows change after you align with the row of floor numbers displayed on the building's facade?
+
+Choices:  
+A. The distance between me and the cylindrical building decreases.  
+B. The distance between me and the cylindrical building remains the same.  
+C. The distance between me and the cylindrical building increases.  ",A,Option: A; Reason: The agent is moving closer to the cylindrical building with blue windows as they align with the row of floor numbers displayed on the building's facade.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,32,EmbodiedCity_27.mp4,Trajectory Captioning,"Question: Which of the following choices better summarizes your movement route?  
+Choices:  
+A. I go from the view between two tall skyscrapers to the rooftop with a distinctive cone structure by flying over the main street.  
+B. I go from the view between two tall skyscrapers to the balcony on the 6th floor by approaching the cylindrical building.  
+C. I go from the side of the tall glass building to the rounded windows on the side of the cylindrical building by flying lower.  
+D. I go from the entrance to the cylindrical building to the rooftop by flying to a higher altitude.  
+E. I go from the rounded windows on the side of the cylindrical building to the balcony on the 6th floor by moving sideways.  ",B,"Option: A; Reason: The agent starts between two tall skyscrapers and then flies over the main street, which matches the description in option A.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,33,EmbodiedCity_28.mp4,Object Recall,"Question: Which object is located near the round rooftop of a tower?  
+Choices:  
+A. A radio antenna.  
+B. Another UAV.  
+C. A curved facade leading to the terrace.  
+D. A large billboard.  
+E. A series of blue windows.  ",E,"Option: E; Reason: The image shows a series of blue windows on the side of a tall building, which is located near the round rooftop of a tower.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,34,EmbodiedCity_30.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+Choices:  
+A. Start at the rooftop of the cylindrical building with a dome and end at the elevated highway intersection.  
+B. Start at the elevated highway intersection and end at the rooftop of the cylindrical building with a dome.  
+C. Start at the garden area lined with trees and end at the building between the skyscrapers.  
+D. Start between the skyscrapers and end at the red tree in front of the gate.  
+E. Start at the red tree in front of the gate and end at the rooftop of the cylindrical building with a dome.  ",D,Option: B; Reason: The journey starts at the elevated highway intersection and ends at the rooftop of the cylindrical building with a dome.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,35,EmbodiedCity_33.mp4,Start/End Position,"Question: Where are your starting point and ending point?  
+
+Choices:  
+A. Start at the line of trees along the main road and end at the row of parked cars beside the tall building.  
+B. Start at the rooftop of the central building in the cityscape and end at the traffic moving along the central city street.  
+C. Start at the traffic moving along the central city street and end near the air conditioning outdoor unit on the right side of the blue billboard.  
+D. Start at the front entrance of the tall building with large windows and end at the curved, modern office building next to the city square.  
+E. Start at the row of parked cars beside the tall building and end at the rooftop of the central building in the cityscape.  ",C,Option: B; Reason: The agent starts at the rooftop of the central building in the cityscape and ends at the traffic moving along the central city street.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,36,EmbodiedCity_33.mp4,Proximity,"Question: How does the distance between you and the blue billboard change after you adjust your trajectory slightly right?  
+
+Choices:  
+A. It decreases.  
+B. It remains the same.  
+C. It increases.  ",A,"Option: C; Reason: The blue billboard is visible in the background, and as the agent moves closer to the building, the billboard becomes more prominent, indicating that the distance between the agent and the billboard decreases.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,37,EmbodiedCity_33.mp4,Causal,"Question: Why did you adjust your trajectory slightly right before approaching the blue billboard?
+
+Choices:  
+A. Due to sudden gusts of wind.  
+B. To avoid an incoming helicopter.  
+C. To find a better landing spot.  
+D. To align with the air conditioning outdoor unit.  
+E. To capture a panoramic view.  ",D,"Option: D; Reason: The agent is approaching a building with an air conditioning outdoor unit, and the trajectory adjustment could be to align with it.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,38,EmbodiedCity_34.mp4,Trajectory Captioning,"Question: Which of the following choices better summarizes your movement route?  
+
+Choices:  
+A. I go from between the two blue glass buildings to the modern tower with a twisting design by climbing upwards.  
+B. I go from the large building with an archway entrance on the right to the residential area with pink and blue patterned apartments by descending directly.  
+C. I go from the wide cityscape with tall buildings and open streets to the red billboard on the fifth floor by navigating through blue glass skyscrapers.  
+D. I go from the distinctive skyscraper with a twisting design to the series of blue glass skyscrapers by moving backwards.  
+E. I go from the red billboard on the fifth floor to the vibrant trees lining the sidewalks by accelerating forward.",C,"Option: C; Reason: The agent starts from a wide cityscape with tall buildings and open streets, then navigates through blue glass skyscrapers, and finally reaches the red billboard on the fifth floor.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,39,EmbodiedCity_34.mp4,Start/End Position,"Question: Where do you start and end your journey?  
+
+Choices:  
+A. Start at the large building with an archway entrance and end at the distinctive skyscraper with a twisting design.  
+B. Start at the series of blue glass skyscrapers and end at the open area with multiple skyscrapers.  
+C. Start at the wide cityscape with tall buildings and end at the residential area with pink and blue patterned apartments.  
+D. Start at the uniquely shaped black and white geometric building and end at the long avenue filled with colorful cars.  
+E. Start near the open area with multiple skyscrapers and end at the red billboard on the fifth (top) floor.  ",E,Option: A; Reason: The journey starts at the large building with an archway entrance and ends at the distinctive skyscraper with a twisting design.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,40,EmbodiedCity_34.mp4,Object Recall,"Question: What do you observe beside the red billboard on the fifth (top) floor?
+
+Choices:  
+A. A fire escape.  
+B. A small antenna.  
+C. A window planter.  
+D. A security camera.  
+E. An air conditioning unit.  ",E,Option: E; Reason: There is an air conditioning unit visible on the side of the building beside the red billboard.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,41,EmbodiedCity_34.mp4,Scene Recall,"Question: What objects do you observe while flying between two tall buildings?
+
+Choices:  
+A. Vibrant trees lining the sidewalks, a large building with an archway, and the central square.  
+B. A large building with an archway entrance, colorful cars, and a wide street.  
+C. A distinctively shaped black and white geometric building, a red billboard, and the skyline.  
+D. A residential area with pink and blue patterned apartments, a twisting skyscraper, and a row of lower buildings.  
+E. A series of blue glass skyscrapers, a modern tower, and vibrant trees.  ",E,"Option: C; Reason: The distinctively shaped black and white geometric building, a red billboard, and the skyline are visible in the image.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,42,EmbodiedCity_34.mp4,Duration,"Question: Which takes longer, your flight between the two tall buildings or your descent to the height of the top floor?
+
+Choices:  
+A. My flight between the two tall buildings takes the same time as my descent to the height of the top floor.  
+B. My flight between the two tall buildings takes longer than my descent to the height of the top floor.  
+C. My flight between the two tall buildings takes shorter than my descent to the height of the top floor.  ",B,"Option: C; Reason: The agent is moving from a higher position to a lower position, which is a descent, and it takes longer to descend to the height of the top floor compared to a short flight between two tall buildings.",32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,43,EmbodiedCity_36.mp4,Duration,"Question: Which takes longer, your descent towards the street level or your maneuvering between the buildings?
+
+Choices:  
+A. My descent towards the street level takes the same time as my maneuvering between the buildings.  
+B. My descent towards the street level takes shorter than my maneuvering between the buildings.  
+C. My descent towards the street level takes longer than my maneuvering between the buildings.  ",C,Option: B; Reason: The agent's maneuvering between the buildings is more complex and requires more time and effort compared to the descent towards the street level.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,44,EmbodiedCity_37.mp4,Trajectory Captioning,"Question: Which of the following choices better summarizes your movement route?
+
+Choices:  
+A. I go from the cluster of slim apartment buildings to the greenbelt separating the traffic lanes by descending between skyscrapers.  
+B. I go from the intersection with the flow of colorful cars to the uniquely shaped black tower by flying around the buildings.  
+C. I go from the aerial view of the main city street to the streetlights behind the bus stop by flying above the pedestrian path.  
+D. I go from the futuristic architecture building with curved windows to the large office building with a reflective facade by moving through the narrow path.  
+E. I go from the series of low-rise commercial buildings to the first row of skyscrapers on the left by flying above the rooftops.  ",C,Option: E; Reason: The agent moves from the series of low-rise commercial buildings to the first row of skyscrapers on the left by flying above the rooftops.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,45,EmbodiedCity_37.mp4,Start/End Position,"Question: Where do you start and end your journey?
+
+Choices:  
+A. Start at the large office building with a reflective facade and end at the intersection with the flow of colorful cars.  
+B. Start at the uniquely shaped black tower in the distance and end at the cluster of slim apartment buildings.  
+C. Start at the aerial view of the main city street and end at the streetlights behind the bus stop.  
+D. Start at the futuristic architecture building with curved windows and end at the greenbelt separating the traffic lanes.  
+E. Start at the first row of skyscrapers on the left and end at the uniquely shaped black tower in the distance.  ",C,Option: B; Reason: The journey starts at the uniquely shaped black tower in the distance and ends at the cluster of slim apartment buildings.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,46,EmbodiedCity_37.mp4,Duration,"Question: Which takes longer, your descent to the street level near the bus stop or your flight over the center of the street between skyscrapers?  
+Choices:  
+A. My descent to the street level takes the same time as my flight over the center of the street.  
+B. My descent to the street level takes shorter than my flight over the center of the street.  
+C. My descent to the street level takes longer than my flight over the center of the street.  ",C,Option: C; Reason: The agent's descent to the street level takes longer than the flight over the center of the street between skyscrapers.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,47,EmbodiedCity_38.mp4,Start/End Position,"Question: Where do you start and end your journey?
+
+Choices:  
+A. Start near the electric gate on the side and end at the transformer box next to the gate.  
+B. Start at the top view of a busy street with numerous cars and end at the sidewalk with patterned pavement.  
+C. Start at the roof of a long building along the road and end at the bus stop near the building.  
+D. Start at the sidewalk with patterned pavement and end at the row of trees lining the sidewalk.  
+E. Start at the bird's-eye view of the cityscape with high-rise buildings and end at the electric gate on the side.  ",E,Option: B; Reason: The journey starts at the top view of a busy street with numerous cars and ends at the sidewalk with patterned pavement.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,48,EmbodiedCity_38.mp4,Duration,"Question: Which takes longer, your descent to street level or your alignment with the building's facade?
+
+Choices:  
+A. My descent to street level takes the same time as the alignment with the building's facade.  
+B. My descent to street level takes shorter than the alignment with the building's facade.  
+C. My descent to street level takes longer than the alignment with the building's facade.  ",C,Option: C; Reason: The agent's descent to street level takes longer than the alignment with the building's facade.,32
+uniform_32f,Qwen/Qwen2.5-VL-7B-Instruct,49,EmbodiedCity_38.mp4,Counterfactual,"Question: Instead of moving forward, if you choose to fly directly to the right after descending alongside the building block, can you still reach the transformer box next to the gate?  
+Choices:  
+A. If I fly directly to the right, I cannot complete the task because I miss the path around the building, and the alternative takes longer.  
+B. If I fly directly to the right, I can complete the task by navigating a shortcut path through the open area, and the alternative takes shorter time.  
+C. If I fly directly to the right, I might not be able to complete the task because I move away from the electric gate on the side, and the hypothetical movement takes longer.  ",C,"Option: B; Reason: If you fly directly to the right, you can complete the task by navigating a shortcut path through the open area, and the alternative takes shorter time.",32

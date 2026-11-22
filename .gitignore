@@ -1,0 +1,37 @@
+# Môi trường, cache Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Bí mật
+.env
+.env.*
+
+# Dữ liệu nặng
+*.mp4
+/cache/
+
+# outputs/: chỉ giữ những gì cần để tái lập bảng kết quả mà không cần GPU
+# (git không cho comment cùng dòng với pattern, nên ghi chú để ở dòng riêng)
+outputs/*
+# dev_300, subset_1000 (bắt buộc)
+!outputs/subsets/
+# MCQ.parquet, video_meta.csv (~1 MB)
+!outputs/data/
+# câu trả lời của mọi lượt chạy, bỏ file chạy thử
+!outputs/results/
+outputs/results/parts/
+outputs/results/archive/
+outputs/results/*head*.csv
+outputs/results/*smoke*.csv
+# frame đã chọn + thời gian chọn
+!outputs/selections/
+# điểm CLIP (chọn frame AKS gần như miễn phí)
+!outputs/cache/
+!outputs/figures/
+!outputs/summary.csv
+!outputs/pairwise.csv
+!outputs/final_table.csv
+# outputs/logs/ và outputs/status/ (log, tiến độ lúc chạy) bị bỏ qua

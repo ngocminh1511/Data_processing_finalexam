@@ -1,0 +1,6 @@
+[submodule "third_party/KTV"]
+	path = third_party/KTV
+	url = https://github.com/hktk07/KTV
+[submodule "third_party/MDP3"]
+	path = third_party/MDP3
+	url = https://github.com/sunh-23/MDP3

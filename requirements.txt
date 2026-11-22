@@ -1,0 +1,14 @@
+# Môi trường LOCAL: điều khiển Modal + chấm điểm (evaluate.py) + test.
+# Thư viện chạy trên container (torch, transformers, vllm) khai báo trong modal_infra.py.
+# pandas/numpy/opencv ghim giống COMMON_PKGS trong modal_infra.py để test local khớp container.
+modal==1.6.2
+pandas==3.1.0
+pyarrow==26.0.0
+numpy==2.3.5
+opencv-python-headless==4.14.0.94
+pillow==13.0.0
+pytest
+scikit-learn==1.7.2   # KMeans của KTV (test local)
+# Notebook điều khiển (notebooks/experiment.ipynb)
+ipykernel
+matplotlib

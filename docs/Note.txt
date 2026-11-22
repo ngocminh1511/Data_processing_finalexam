@@ -1,0 +1,28 @@
+Recall: quá khứ, hồi tưởng
+    Trajectory captioning: Sinh mô tả quỹ đạo
+    sequency recall: 
+perception: Nhận thức => liên quan đến các câu hỏi hiện tại
+    proximity => Khoảng cách gần
+Reasoning: Những câu hỏi suy luận
+    Casual: Câu hỏi nhân quả, tại sao
+    counterfactual: Các câu hỏi phản tế: Nếu như drone làm cái khác thì kết quả ntn
+    Asociation: Liên kết. Mục tiêu chưa thấy được thì vật gì liên quan nhất
+Navigation: Điều hướng
+    Progress Evaluation: Đánh giá tiến độ
+    hight-level planning: Lập kế hoạch cấp cao. Nên tiến đến đâu tiếp
+
+
+MLLM : Multimodal Large Language Model ( mô hình ngôn ngữ lớn đa phương thức)
+        => Hiểu được cả văn bản, hình ảnh , video và âm thanh
+
+Relevance (sự liên quan) => THành phần nào sẽ có ức độ liên quan nhất đến Q đưa ra
+Coverage ( Độ bao phủ) => Các khung hình phải được rải đều và bao quát. tránh chọn các hình trùng lặp
+AKS: Adapter Keyframe Samplig ( Chọn các mẫu frame chính)
+
+Narration Generation: Tạo lời thuyết mình. tạo văn bản tưởng thuật
+Engocotric resoning: Suy luận dựa vào góc nhìn thứ nhất
+
+
+Ở phần đầu có nên đặt các paper nào tham khảo hay không
+
+Linear projection: phép chiếu tuyến tính
